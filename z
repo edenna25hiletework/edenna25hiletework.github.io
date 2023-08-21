@@ -17,10 +17,10 @@ function submitted(event) {
        quizSection.appendChild(answerHeader);
        const result = document.createElement ('p');
        if(answerHeader.question1=== "upbeat") { 
-        result.textContent=...
+        result.textContent= " You should listen to these"
     
        }else if (answers.question === "slow"){
-        result.textContent = ...
+        result.textContent ="You would enjoy listening to these"
        }
        quizSection.appendChild(result);
     }
