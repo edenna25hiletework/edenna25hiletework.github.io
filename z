@@ -1,0 +1,29 @@
+const form = document.getElemntByld("quiz");
+form.addEventlistener("submit", submitted);
+
+function submitted(event) {
+    event.preventDefault();
+    const answers = {
+        question1: document.querySelector('input[name- "q1"] checked').value
+    }
+    
+    display(answers);
+}
+    function display(answers) {
+        const quizSection = document. getElemntByld("quiz wrapper");
+        quizSection.innerHTML = "";
+       const answerHeader = document. createElement("h1");
+       answerHeader.textContent = "Your results are";
+       quizSection.appendChild(answerHeader);
+       const result = document.createElement ('p');
+       if(answerHeader.question1=== "upbeat") { 
+        result.textContent=...
+    
+       }else if (answers.question === "slow"){
+        result.textContent = ...
+       }
+       quizSection.appendChild(result);
+    }
+
+    
+    
