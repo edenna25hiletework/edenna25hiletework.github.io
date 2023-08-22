@@ -17,10 +17,10 @@ function submitted(event) {
        quizSection.appendChild(answerHeader);
        const result = document.createElement('p');
        if(answers.question1=== "upbeat") { 
-        result.textContent= " You should listen to these: <br> dancing queen <br> lay all your love on me <br> money! money! money! <br> gimmie! gimmie! gimmie!";
+        result.textContent= " You should listen to these: dancing queen, lay all your love on me, money! money! money!, and gimmie! gimmie! gimmie!";
         
        }else if (answers.question1 === "slow"){
-        result.textContent ="You would enjoy listening to these: <br> chiqutita <br> thank you for the music <br> sliping thorugh my fingers <br> angle eyes";
+        result.textContent ="You would enjoy listening to these: chiqutita, thank you for the music, sliping thorugh my fingers, and angle eyes";
        }
        quizSection.appendChild(result);
     }
